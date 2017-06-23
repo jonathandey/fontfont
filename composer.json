@@ -1,0 +1,25 @@
+{
+	"name": "jd/fontfont",
+
+	"description": "A font loader. Loads fonts from a source in to a library.",
+
+	"version": "0.2.5",
+
+	"authors": [
+		{
+			"name": "Jonathan Dey",
+			"email": "jonathandey@gmail.com",
+			"homepage": "https://twitter.com/jonathandey"
+		}
+	],
+
+	"license": "MIT",
+    
+    "require": {
+        "symfony/finder": "^3.3"
+    },
+
+	"autoload": {
+		"psr-4": { "JD\\FontFont\\": "" }
+	}
+}
