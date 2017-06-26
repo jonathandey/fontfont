@@ -8,8 +8,6 @@ use JD\FontFont\Font\Contracts\FontUrlGeneratorInterface;
 
 class FontFont
 {
-	protected static $fontCollection = null;
-
 	public static function loadFontDirectory($dir, FontUrlGeneratorInterface $urlGenerator = null)
 	{
 		$library = new LocalFileLibrary($dir, '/\.(ttf|otf)$/');
